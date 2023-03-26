@@ -26,3 +26,13 @@ The test framework molecule can be installed with this command via `pip`:
 ```shell
 pip install molecule[docker]
 ```
+
+## WSL
+
+With a shortcut, the workspace can be opened directly in Ubuntu (WSL).
+
+```shell
+"C:\Program Files\Microsoft VS Code\bin\code.cmd" --remote wsl+Ubuntu "/home/<your-path>/github-workspace/ansible.code-workspace"
+```
+
+> Set the `Run` property to `Minimized` to hide the terminal when opening the workspace.
