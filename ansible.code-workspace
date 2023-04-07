@@ -142,12 +142,12 @@
 					"color": "terminal.ansiYellow"
 				},
 				"group": {
-					"kind": "none",
+					"kind": "none"
 				},
 				"options": {
 					"env": {
 						"ANSIBLE_VAULT_PASSWORD_FILE": "~/.vault",
-						"EDITOR": "code -w" // Use VSCode to edit the vault file.
+						"EDITOR": "code -w"
 					}
 				},
 				"presentation": {
@@ -168,10 +168,22 @@
 	},
 	"folders": [
 		{
+			"path": "../github-workspace"
+		},
+		{
 			"path": "../ansible-collection-shell"
 		},
 		{
-			"path": "../github-workspace"
+			"path": "../ansible-collection-docker"
+		},
+		{
+			"path": "../../ansible-role-docker_compose"
+		},
+		{
+			"path": "../../ansible-iot"
+		},
+		{
+			"path": "../../ansible-home"
 		}
 	]
 }
