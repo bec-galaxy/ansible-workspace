@@ -6,7 +6,7 @@ After opening the `ansible.code-workspace` file, the following shortcuts are ava
 
 | Befehl               | Beschreibung                                  |
 | -------------------- | --------------------------------------------- |
-| 🧬 molecule test      | Performs a test with all distributions.       |
+| 🧬 molecule test      | Performs a complete test.                     |
 | 🧬 molecule converge  | Performs a quick test without destroy.        |
 | 🧬 molecule verify    | Performs a quick test without destroy.        |
 | 🧬 molecule login     | Opens a shell on the quick test container.    |
@@ -22,10 +22,7 @@ Molecule is executed in the currently selected project.
 
 ### Preparation
 
-The test framework molecule can be installed with this command via `pip`:
-```shell
-pip install molecule[docker]
-```
+The test framework molecule can be installed with [this packages](https://github.com/bec-galaxy/setup-molecule/blob/main/requirements.txt).
 
 ## WSL
 
