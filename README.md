@@ -16,7 +16,7 @@ After opening the `ansible.code-workspace` file, the following shortcuts are ava
 
 ## Molecule
 
-To test the collection e.g. after changes, a Molecule playbook is included.
+To test a ansible-collection e.g. after changes, Molecule tasks are included.
 
 Molecule is executed in the currently selected project.
 
@@ -29,7 +29,7 @@ The test framework molecule can be installed with [this packages](https://github
 With a shortcut, the workspace can be opened directly in Ubuntu (WSL).
 
 ```shell
-"C:\Program Files\Microsoft VS Code\bin\code.cmd" --remote wsl+Ubuntu "/home/<your-path>/github-workspace/ansible.code-workspace"
+"C:\Program Files\Microsoft VS Code\bin\code.cmd" --remote wsl+Ubuntu "/home/<your-path>/ansible-workspace/ansible.code-workspace"
 ```
 
 > Set the `Run` property to `Minimized` to hide the terminal when opening the workspace.
