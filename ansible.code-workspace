@@ -165,7 +165,7 @@
 		"yaml.customTags": [
 			"!vault",
 			"!reference sequence"
-		],
+		]
 	},
 	"folders": [
 		{
@@ -191,6 +191,9 @@
 		},
 		{
 			"path": "../setup-molecule"
+		},
+		{
+			"path": "../setup-lint"
 		}
 	]
 }
