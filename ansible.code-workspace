@@ -165,7 +165,8 @@
 		"yaml.customTags": [
 			"!vault",
 			"!reference sequence"
-		]
+		],
+		"liveServer.settings.multiRootWorkspaceName": "traefik-custom-error-pages"
 	},
 	"folders": [
 		{
