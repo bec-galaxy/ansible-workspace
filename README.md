@@ -22,7 +22,7 @@ Molecule is executed in the currently selected project.
 
 ### Preparation
 
-The test framework molecule can be installed with [this packages](https://github.com/bec-galaxy/setup-molecule/blob/main/requirements.txt).
+The test framework molecule can be installed with [this packages](https://github.com/bec-galaxy/setup-molecule/blob/main/action.yml).
 
 ## WSL
 
