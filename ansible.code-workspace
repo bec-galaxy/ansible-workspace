@@ -166,7 +166,7 @@
 			"!vault",
 			"!reference sequence"
 		],
-		"liveServer.settings.multiRootWorkspaceName": "traefik-custom-error-pages"
+		"liveServer.settings.multiRootWorkspaceName": "ansible-collection-docker"
 	},
 	"folders": [
 		{
@@ -188,13 +188,16 @@
 			"path": "../../ansible-home"
 		},
 		{
-			"path": "../../traefik-custom-error-pages"
-		},
-		{
 			"path": "../setup-molecule"
 		},
 		{
 			"path": "../setup-lint"
+		},
+		{
+			"path": "../../traefik-custom-error-page"
+		},
+		{
+			"path": "../cicd-tests"
 		}
 	]
 }
