@@ -166,7 +166,6 @@
 			"!vault",
 			"!reference sequence"
 		],
-		"liveServer.settings.multiRootWorkspaceName": "ansible-collection-docker"
 	},
 	"folders": [
 		{
@@ -194,10 +193,13 @@
 			"path": "../setup-lint"
 		},
 		{
-			"path": "../../traefik-custom-error-page"
+			"path": "../cicd-tests"
 		},
 		{
-			"path": "../cicd-tests"
+			"path": "../../pages-base"
+		},
+		{
+			"path": "../../traefik-error-pages"
 		}
 	]
 }
