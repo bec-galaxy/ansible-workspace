@@ -166,6 +166,7 @@
 			"!vault",
 			"!reference sequence"
 		],
+		"ansible.python.interpreterPath": "/bin/python3",
 	},
 	"folders": [
 		{
