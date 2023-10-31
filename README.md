@@ -2,7 +2,7 @@
 
 Predefined tasks for Visual Studio code. These can be used to test Ansible roles and collections.
 
-After opening the `ansible.code-workspace` file, the following shortcuts are available under the Tasks `Terminal->Run Task…` menu:
+After opening the `bec-galaxy.code-workspace` file, the following shortcuts are available under the Tasks `Terminal->Run Task…` menu:
 
 | Befehl               | Beschreibung                                  |
 | -------------------- | --------------------------------------------- |
@@ -13,23 +13,22 @@ After opening the `ansible.code-workspace` file, the following shortcuts are ava
 | 🧬 molecule destroy   | Use the provisioner to destroy the instances. |
 | 🔑 ansible-vault edit | Edits the current selected vault file.        |
 
+### Preparation
+
+Install Ansible and the Molecule testing Framework with the required dependencies using this command:
+```
+pip install --user ansible ansible-lint molecule molecule-plugins docker
+```
+
+Upgrade existing packages with this command:
+```
+pip install --upgrade --user ansible ansible-lint molecule molecule-plugins docker
+```
+
+> Install the package only in the user context, depending on the environment installing python packages as root can cause problems. If any Ansible packages were previously installed as root, it is recommended to uninstall these packages first.
 
 ## Molecule
 
 To test a ansible-collection e.g. after changes, Molecule tasks are included.
 
 Molecule is executed in the currently selected project.
-
-### Preparation
-
-The test framework molecule can be installed with [this packages](https://github.com/bec-galaxy/setup-molecule/blob/main/action.yml).
-
-## WSL
-
-With a shortcut, the workspace can be opened directly in Ubuntu (WSL).
-
-```shell
-"C:\Program Files\Microsoft VS Code\bin\code.cmd" --remote wsl+Ubuntu "/home/<your-path>/ansible-workspace/ansible.code-workspace"
-```
-
-> Set the `Run` property to `Minimized` to hide the terminal when opening the workspace.
